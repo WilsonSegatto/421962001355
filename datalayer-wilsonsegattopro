@@ -335,7 +335,7 @@ __DL__jQueryinterval = setInterval(function(){
               };               
   dataLayer.push({
     'pageType' : 'Product',
-    'event'    : 'view_item2',
+    'event'    : 'view_item',
     ecommerce
   });
   $(__DL__.cartTriggers).click(function(){
@@ -378,7 +378,7 @@ __DL__jQueryinterval = setInterval(function(){
             };
             dataLayer.push({
                 'pageType' : 'Cart',
-                'event'    : 'view_cart',
+                'event'    : 'add_to_cart',
                 ecommerce
             });
         {% endif %}
